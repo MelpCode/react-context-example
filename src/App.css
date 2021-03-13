@@ -1,0 +1,42 @@
+*,::after,::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url('./stacked-peaks-haikei.svg');
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.card{
+  margin-top: 30px;
+  height: 480px !important;
+  overflow: hidden;
+}
+
+.profile{
+  height: 350px !important;
+}
+
+.listgroup{
+  height: 430px;
+  overflow-y: scroll;
+}
+
+@media (max-width:700px){
+  .card{
+    height: 830px !important;
+  }
+  .profile{
+    height: 310px !important;
+  }
+}
+
+@media (max-width:900px){
+  .card{
+    height: 830px !important;
+  }
+}
+
